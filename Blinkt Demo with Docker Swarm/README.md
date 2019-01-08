@@ -1,6 +1,6 @@
 <h1>Raspberry Pi 3 cluster with flashing light boards using Docker Swarm</h1>
 
-In this demo I have implemented 2-node raspberry pi cluster using docker swarm. The raspberry pi devices are already equipped with Pimoroni Blinkt Eight super-bright RGB LED indicators chip. This demo simulates the docker swarm cluster where same software docker image is deployed on multiple containers distributed across multiple nodes. To run this demo use following commands and the output of the program is explained later:
+In this demo I have implemented 2-node raspberry pi cluster using docker swarm. The raspberry pi devices are already equipped with Pimoroni Blinkt Eight super-bright RGB LED indicators chip. This demo simulates the docker swarm cluster where same software docker image is deployed on multiple containers distributed across multiple nodes. To run this demo use following commands:
 
 Initialize Docker Swarm:
 
