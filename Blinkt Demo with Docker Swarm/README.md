@@ -21,7 +21,7 @@ Create a docker swarm service:
 	
 To test the application:
 
-Open host browser and enter http://localhost:5000 or curl -s http://localhost:5000
+Open host browser and enter http://localhost:5000 or curl -s http://localhost:5000 from your terminal
 
 
 ![](BlinktSwarm.gif)
