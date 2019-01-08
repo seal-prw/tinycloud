@@ -3,7 +3,7 @@ version: '2'
 services:
         worker_1:
                 image: prasannawarunkar/webapp_blinkt
-                hostname: worker_1                          
+                hostname: worker_1
                 command: python webblinkt.py
                 devices:
                         - /dev/gpiomem:/dev/gpiomem
@@ -29,20 +29,5 @@ services:
                                 aliases:
                                         - search
 
-        worker_3:
-                image: prasannawarunkar/webapp_blinkt
-                hostname: worker_3
-                command: python webblinkt.py
-                devices:
-                        - /dev/gpiomem:/dev/gpiomem
-                privileged: true
-                cap_add:
-                        - SYS_RAWIO
-                networks:
-                        blinkt_bridge:
-                                aliases:
-                                        - search
-
 networks:
         blinkt_bridge:
-
