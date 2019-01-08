@@ -16,4 +16,3 @@ Above command will start a container of centos and will hit curl command. Docker
 ![alt text](RaspberryPi_blinkt.jpg)
 
 
-![](BlinktSwarm.gif)
