@@ -29,7 +29,7 @@ Open host browser and enter http://localhost:5000 or curl -s http://localhost:50
 
 To update software image on all nodes on all containers use:
 
-docker service update --no-resolve-image --image prasannawarunkar/swarm_flask_blinkt_green:latest swarm_blinkt
+<b>docker service update --no-resolve-image --image prasannawarunkar/swarm_flask_blinkt_green:latest swarm_blinkt</b>
 
 This will update the image on all the containers and green lights will start blinking. 
 
