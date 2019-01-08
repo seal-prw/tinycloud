@@ -21,13 +21,11 @@ Create a docker swarm service:
 	
 To test the application:
 
-Open host browser and enter http://localhost:5000 or curl -s http://localhost:5000 from your terminal. The docker swarm manager will redirect the request to a random container inside the cluster and respective node's LED will flash as shown below:
+Open host browser and enter http://localhost:5000 or curl -s http://localhost:5000 from your terminal. The docker swarm manager will redirect the http request to a random container inside the cluster and respective node's LED will flash as shown below:
 
 
 ![](BlinktSwarm.gif)
 
-
-The http request is redirected to random node on random container by Docker Swarm manager. 
 
 To update software image on all nodes on all containers use:
 
