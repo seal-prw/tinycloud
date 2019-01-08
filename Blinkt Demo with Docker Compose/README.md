@@ -11,6 +11,6 @@ Then press cntrl+alt+F2 to open second terminal and then enter
 
 <b>docker run --net blinkt_bridge centos curl -s http://search:5000 </b>
 
-Above command will start a container of centos and will hit curl command. Docker engine then redirects the request to one of the containers randomly as both are having same DNS aliases showing load balancing. The final output will show us which container got the request and corresponding light on the Raspberry Pi chip will blink. For example if the container is 1 then first light on the chip will blink.
+Above command will start a container of centos and will hit curl command. Docker engine then redirects the request to one of the containers randomly as both are having same DNS aliases showing load balancing. The final output will show us which container got the request and corresponding light on the Raspberry Pi chip will blink. For example if the request is redirected to container 1 then first light on the chip will blink and same is the case with second.
 
 ![alt text](RaspberryPi_blinkt.jpg)
